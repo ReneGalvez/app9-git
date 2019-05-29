@@ -10,7 +10,7 @@ var audio;
 	 var song=element.attr('song');
 	 var title=element.text();
 	 var cover=element.attr('cover');
-	 var artis=element.attr('artist');
+	 var artist=element.attr('artist');
 	 
 	 //Create a New Audio Object
 	 audio=new Audio('media/'+ song);
@@ -102,8 +102,8 @@ var audio;
 		var s=parseInt(audio.currentTime%60);
 		var m=parseInt((audio.currentTime/60)%60);
 		//Add 0 if seconds less than 10
-		if(s<100){
-		   s='0' +s;
+		if(s<10){
+		   s='0' + s;
 		}
 		$('#duration').html(m+'.'+s);
 		var vlaue=0;

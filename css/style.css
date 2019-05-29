@@ -1,32 +1,32 @@
 *{
     margin: 0;
 	padding: 0;
-	border:none;
-	outline:none;
+	border: none;
+	outline: none;
 }
 
 body{
-	font-family: arial;
+	font-family: Arial;
 	font-size: 13px;
 	line-height: 1.5em;
-	color:#336;
-	background-color: #393
+	color:#FFF;
+	background-color:#036;
 }
 
 .clearfix{
-	clear: both;
+	clear:both;
 }
 
 #container{
-	width: 330px;
+	width:330px;
 	min-height:400px;
-	background:#906;
-	overflow: auto;
-	margin:60px aunto;
-	-moz-border-radius:10px;
+	background:#666;
+	overflow:auto;
+	margin:60px auto;
+	-moz-border-radius:10px
 	-webkit-border-radius:10px;
 	border-radius:10px;
-	border:#333 solid 2px;
+	border:#009 solid 2px;	
 }
 
 #audio-image{
@@ -40,8 +40,8 @@ body{
 	text-align:center;
 }
 
-#audio-info.artist{
-	font-weight:bold;
+#audio-info .artist{
+	font-align:center;
 }
 
 .cover{
@@ -49,45 +49,46 @@ body{
 	z-index:1;
 }
 
-input#volume{
+input#volume {
 	width:95%;
 	margin-left:2%;
-	-webkit-appearance: none !important;
-	background:#030;
+	-webkit-appearance:none !important;
+	background:#FFF;
 	height:1px;
 	margin-bottom:20px;
 }
 
 
-#buttons{
-	width: 90%;
-	display: block;
-	margin: 15px auto;
-	margin-left: 23px;
+#buttons {
+	width:90%;
+	display:block;
+	margin:15px auto;
+	margin-left:23px;
 	overflow:auto;
 }
 
 button#play{
 	width:70px;
 	height:70px;
-	background:url(../images/play.png)no-repeat;float:left;
+	background:url(../images/play.png) no-repeat;float:left;
 }
 
 button#pause{
 	width:70px;
 	height:70px;
-	background:url(../images/pause.png)no-repeat;float:left;
+	background:url(../images/pause.png) no-repeat;float:left;
+	
 }
 
 button#stop{
 	width:70px;
 	height:70px;
-	background:url(../images/stop.png)no-repeat;float:left;
+	background:url(../images/stop.png) no-repeat;float:left;
 }
 
 
 #playlist{
-	list-style-type:none;
+	list-style-type: none;
 	padding:10px;
 }
 
@@ -101,26 +102,26 @@ button#stop{
 	width:100%;
 }
 
-#playlist li.active{
-	font-weight:bold;
+playlist li.active{
+	font-weight:blod;
 	padding:3px;
-	background:#699
+	background:#09F;
 }
 
-#progressBar{
+#progressBar {
 	width:80%;
 	margin-left:2%;
 	margin-bottom:20px;
 	margin-top:9px;
 	height:10px;
-	background:url(../images/progress_bg.png)no-repeat;
+	background:url(../images/progress_bg.png) no-repeat;
 	float:left;
 }
 
-#progress{
-	background:url(../images/progress.png)no-repeat;
+#progress {
+	background:url(../images/progress.png) no-repeat;
 	height:10px;
-	display:inline-block;
+	display: inline-block;
 }
 
 #duration{
@@ -128,34 +129,7 @@ button#stop{
 	top:0;
 	right:10px;
 	padding:4px 8px;
-	background: #06F;
+	background: #30C;
 	border-radius:5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
